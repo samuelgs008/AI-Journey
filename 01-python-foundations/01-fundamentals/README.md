@@ -11,10 +11,10 @@
 | 07 | [Sum Until Zero](07-sum-until-zero/) | ✅ | ✅ |
 | 08 | [Count Vowels](08-count-vowels/) | ✅ | ✅ |
 | 09 | [FizzBuzz](09-challenge-fizzbuzz/) | ✅ | ✅ |
-| 10 | [Types and Conversions](10-types-and-conversions/) | ⬜ | ⬜ |
-| 11 | [Time Converter](11-time-converter/) | ⬜ | ⬜ |
-| 12 | [Countdown](12-countdown/) | ⬜ | ⬜ |
-| 13 | [Star Triangle](13-star-triangle/) | ⬜ | ⬜ |
-| 14 | [Grade Validator](14-grade-validator/) | ⬜ | ⬜ |
+| 10 | [Types and Conversions](10-types-and-conversions/) | ✅ | ✅ |
+| 11 | [Time Converter](11-time-converter/) | ✅ | ✅ |
+| 12 | [Countdown](12-countdown/) | ✅ | ✅ |
+| 13 | [Star Triangle](13-star-triangle/) | ✅ | ✅ |
+| 14 | [Grade Validator](14-grade-validator/) | ✅ | ✅ |
 | 15 | [Prime Number](15-prime-number/) | ⬜ | ⬜ |
 | 16 | [Reverse Number](16-challenge-reverse-number/) | ⬜ | ⬜ |
