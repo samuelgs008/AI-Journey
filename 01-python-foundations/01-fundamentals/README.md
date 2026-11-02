@@ -16,5 +16,5 @@
 | 12 | [Countdown](12-countdown/) | ✅ | ✅ |
 | 13 | [Star Triangle](13-star-triangle/) | ✅ | ✅ |
 | 14 | [Grade Validator](14-grade-validator/) | ✅ | ✅ |
-| 15 | [Prime Number](15-prime-number/) | ⬜ | ⬜ |
+| 15 | [Prime Number](15-prime-number/) | ✅ | ✅ |
 | 16 | [Reverse Number](16-challenge-reverse-number/) | ⬜ | ⬜ |
