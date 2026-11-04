@@ -1,33 +1,24 @@
 # 14 - Grade Validator
-average = 0
-filled = False
-valid_grade_task = False
-grade_calculation = False
+total = 0
+count = 0
+grade_validator = True
 
-
-while grade_calculation == False:
-    n = float(input())
-
-    if float(0) > n or n > float(10):
+while grade_validator:
+    n = int(input())
+    if(n < 0 or n > 10):
         print("invalid grade")
         continue
+    total += n
+    count += 1
+    if count == 2:
+        print(f"AVERAGE = {float(total / count):.2f}")
+        n = 0
+        while n != 1 and n != 2:
+            print("new calculation (1-yes 2-no)")
+            n = int(input())
 
-    if filled == False: 
-        average = n
-        filled = True
-
-    else: 
-        average = (average + n) / 2
-        valid_grade_task = True
-        print(f"AVERAGE = {average:.2f}")
-
-    while valid_grade_task == True:
-        print("new calculation (1-yes 2-no)")
-        answer = input()
-        if(answer == '1'):
-            average = 0
-            filled = False
-            valid_grade_task = False
-        elif(answer == '2'):
-            grade_calculation = True
-            valid_grade_task = False
+        if n == 1:
+            count = 0
+            total = 0
+        elif n == 2:
+            grade_validator = False
