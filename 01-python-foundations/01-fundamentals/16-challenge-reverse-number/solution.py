@@ -1,11 +1,11 @@
 # 16 - 🏆 Final Challenge: Reverse Number
 
 
-n = int(input())
+n = 1234
+i = 100
 
-
-
-
+values = int((n % i) // (i / 10))
+print(values)
 
 # place_value = 0
 # reversed_value = 0
