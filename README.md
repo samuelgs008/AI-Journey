@@ -4,7 +4,7 @@ A Python journey made with [Claude](https://claude.com/claude-code) to study Pyt
 
 Claude creates the exercises and projects and acts only as a **tutor**: it never writes the solutions or gives the answers. All the code is written by me. When I get stuck, Claude gives hints, explains concepts and errors, and reviews my code after I solve it.
 
-To solve Mathematic problems i use [matcha.io](https://www.mathcha.io/editor)
+To build pipelines, algorithms and solve mathematical problems, I will use [Excalidraw](https://excalidraw.com/)&nbsp;&nbsp;<img src="assets/excalidraw-logo.png" alt="Excalidraw Logo" width="28" align="center">
 
 ### Solving is only half of it
 
@@ -51,7 +51,7 @@ Each phase below opens with the details.
 | 02 | Strings | concatenation, indexing, slicing, methods (`split`, `join`, `replace`...), formatting, immutability |
 | 03 | Data structures | lists, tuples, dictionaries, sets, comprehensions |
 | 04 | Functions and recursion | `def`, parameters, return values, scope, `import`, `lambda`, `*args`/`**kwargs`, generators, decorators, type hints, and recursion: factorial, Fibonacci, Tower of Hanoi |
-| 05 | Algorithms | searching, sorting, Big O (how fast code is), greedy algorithms and dynamic programming, interview-style coding practice (keep practicing through the later phases) |
+| 05 | Algorithms | searching, sorting, the Sieve of Eratosthenes (all primes up to N at once), Big O (how fast code is), greedy algorithms and dynamic programming, interview-style coding practice (keep practicing through the later phases) |
 | 06 | Files and errors | reading/writing files, CSV, JSON, `try`/`except` |
 | 07 | Object-oriented programming | classes, objects, inheritance |
 
