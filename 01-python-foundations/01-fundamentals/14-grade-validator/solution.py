@@ -4,7 +4,7 @@ count = 0
 grade_validator = True
 
 while grade_validator:
-    n = int(input())
+    n = float(input())
     if(n < 0 or n > 10):
         print("invalid grade")
         continue
