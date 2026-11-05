@@ -1,6 +1,6 @@
 ## Progress
 
-🚩 = has a bug, fix it · 🔧 = works, but can be refactored · <img src="../../assets/excalidraw-logo.png" alt="Excalidraw" width="16"> = has an algorithm drawing
+🚩 = has a bug, must fix it · 🔧 = works, but can be refactored · <img src="../../assets/excalidraw-logo.png" alt="Excalidraw" width="16"> = has an algorithm drawing
 
 | # | Exercise | Solved | Challenge |
 |---|---|:---:|:---:|

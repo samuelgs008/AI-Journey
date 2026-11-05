@@ -2,7 +2,7 @@
 
 
 
-n = int(1234) # 0 ≤ N ≤ 1000000000
+n = int(input()) # 0 ≤ N ≤ 1000000000
 rev = 0
 digit_sum = 0
 
