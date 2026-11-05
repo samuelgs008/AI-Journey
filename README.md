@@ -1,35 +1,24 @@
-# Python-Journey &nbsp;<img src="assets/image.png" alt="Python Logo" width="36" align="top">
+# Python-Journey 🐍
 
 A Python roadmap made with [Claude](https://claude.com/claude-code) to study Python from basics all the way to automation and artificial intelligence applied to real processes. 
 
 Some exercises are inspired by beecrowd: each one has a problem statement, input/output descriptions and sample cases. From Level 04 on, it is **more projects than exercises**.
 
-Claude only writes the exercise statements and project briefs. It never writes my solutions, and only shows an answer if I ask for it after really trying. All the code and pipelines or algorithms is written by me. When I get stuck, Claude gives hints, explains concepts and errors, and reviews my code after I solve it.
+Claude only writes the exercise statements and project briefs. It never writes my solutions, and only shows an answer if I ask for it after really trying. All the code, pipelines and algorithms are written by me. When I get stuck, Claude gives hints, explains concepts and errors, and reviews my code after I solve it.
 
 To build pipelines, algorithms and solve mathematical problems, I will use [Excalidraw](https://excalidraw.com/)&nbsp;&nbsp;<img src="assets/excalidraw-logo.png" alt="Excalidraw Logo" width="28" align="center">
-For example:
 
+## Tech stack
 
-<img src="01-python-foundations\01-fundamentals\16-challenge-reverse-number\Algorithm.png" alt="Algorithm Example" width="650">
+The technologies this roadmap covers (hover over a logo to see its name):
 
-#
-
-### Solving is only half of it
-
-The first solution that works is rarely the best one. After solving, i always ask myself:
-
-- Can I write it with **fewer lines**, without making it hard to read?
-- Is there a part I **repeat**? Can a loop or a variable remove it?
-- Would my code still work if the problem **grew** (more numbers, more rules)?
-
-### From Level 04 on: more projects than exercises
-
-Levels 01 to 03 are mostly exercises, to build the basics. After that, most of the work is projects, because real problems don't come with samples or a known answer. Projects work in one of two ways:
-
-- **Claude gives me a problem, and I solve it.** It describes a real situation, and I decide how to approach it, write the code and test it.
-- **I build a product for Claude.** Claude acts as the client: it explains what it needs, tries what I deliver, reports what's wrong and asks for changes.
-
-Short exercises are still used to practice a new concept before it goes into a project. Claude is still only a tutor: I write all the code
+| Area | Technologies |
+|---|---|
+| **Language & tools** | <img src="assets/python-logo.svg" alt="Python" title="Python" width="36">&nbsp;<img src="assets/git-logo.svg" alt="Git" title="Git" width="36">&nbsp;<img src="assets/github-logo.svg" alt="GitHub" title="GitHub" width="36">&nbsp;<img src="assets/githubactions-logo.svg" alt="GitHub Actions" title="GitHub Actions" width="36">&nbsp;<img src="assets/linux-logo.svg" alt="Linux" title="Linux" width="36">&nbsp;<img src="assets/pytest-logo.svg" alt="pytest" title="pytest" width="36">&nbsp;<img src="assets/ruff-logo.svg" alt="Ruff" title="Ruff" width="36">&nbsp;<img src="assets/excalidraw-logo.png" alt="Excalidraw" title="Excalidraw" width="36"> |
+| **AI & LLMs** | <img src="assets/claude-logo.svg" alt="Claude" title="Claude" width="36">&nbsp;<img src="assets/pydantic-logo.svg" alt="Pydantic" title="Pydantic" width="36">&nbsp;<img src="assets/huggingface-logo.svg" alt="Hugging Face" title="Hugging Face" width="36"> |
+| **Data** | <img src="assets/postgresql-logo.svg" alt="PostgreSQL" title="PostgreSQL" width="36">&nbsp;<img src="assets/numpy-logo.svg" alt="NumPy" title="NumPy" width="36">&nbsp;<img src="assets/pandas-logo.svg" alt="pandas" title="pandas" width="36">&nbsp;<img src="assets/matplotlib-logo.svg" alt="Matplotlib" title="Matplotlib" width="36">&nbsp;<img src="assets/seaborn-logo.svg" alt="Seaborn" title="Seaborn" width="36">&nbsp;<img src="assets/streamlit-logo.svg" alt="Streamlit" title="Streamlit" width="36"> |
+| **Machine Learning** | <img src="assets/scikitlearn-logo.svg" alt="scikit-learn" title="scikit-learn" width="36">&nbsp;<img src="assets/pytorch-logo.svg" alt="PyTorch" title="PyTorch" width="36"> |
+| **Production** | <img src="assets/fastapi-logo.svg" alt="FastAPI" title="FastAPI" width="36">&nbsp;<img src="assets/docker-logo.svg" alt="Docker" title="Docker" width="36">&nbsp;<img src="assets/aws-logo.svg" alt="AWS" title="AWS" width="36">&nbsp;<img src="assets/mlflow-logo.svg" alt="MLflow" title="MLflow" width="36"> |
 
 ## Roadmap
 
@@ -44,8 +33,8 @@ The goal: **improve real processes with Python and AI, and grow toward AI or Mac
 | 5 — Data analysis | turn data into insight: SQL, math for ML, pandas, data pipelines, stats, dashboards | data dashboard | ⚪ Locked |
 | 6 — AI in processes | LLMs that read documents, act and run reliably in production | document-reading assistant | ⚪ Locked |
 | 7 — Machine Learning | train and properly evaluate models (scikit-learn, XGBoost) | well-evaluated prediction model | ⚪ Locked |
-| 8 — Deep Learning | PyTorch, computer vision, transformers, reinforcement learning | the red-ball AI + a fine-tuned model | ⚪ Locked |
-| 9 — ML Engineering | put a model in production (FastAPI, Docker, cloud, MLflow) | a deployed model with an API & monitoring | ⚪ Locked |
+| 8 — Deep Learning | PyTorch, computer vision, transformers, reinforcement learning | a fine-tuned model vs. an LLM | ⚪ Locked |
+| 9 — ML Engineering | put a model in production (FastAPI, Docker, AWS, MLflow) | a deployed model with an API & monitoring | ⚪ Locked |
 | Final | everything together | end-to-end AI automation | ⚪ Locked |
 
 Each phase below opens with the details.
@@ -53,12 +42,14 @@ Each phase below opens with the details.
 <details>
 <summary><b>Phase 1 — Python foundations</b></summary>
 
+<img src="assets/python-logo.svg" alt="Python" title="Python" width="32">&nbsp;<img src="assets/excalidraw-logo.png" alt="Excalidraw" title="Excalidraw" width="32">
+
 | Level | Topic | What you will learn |
 |---|---|---|
 | 01 | [Fundamentals](01-python-foundations/01-fundamentals/) | `print`, `input`, variables, types, `if`, `for`, `while`, `//` and `%`, `range` with steps, nested loops, `break` and `continue`, input validation |
 | 02 | Strings | concatenation, indexing, slicing, methods (`split`, `join`, `replace`...), formatting, immutability |
 | 03 | Data structures | lists, tuples, dictionaries, sets, comprehensions |
-| 04 | Functions and recursion | `def`, parameters, return values, scope, `import`, `lambda`, `*args`/`**kwargs`, generators, decorators, type hints, and recursion: factorial, Fibonacci, Tower of Hanoi |
+| 04 | Functions and recursion | `def`, parameters, return values, scope, `import`, `lambda`, `*args`/`**kwargs`, generators, decorators, type hints, and recursion: factorial, Fibonacci, Tower of Hanoi. Mini-project: an ASCII-art banner generator for the terminal (`pyfiglet` + `rich`: fonts, colors, panels, validated prompts, save to `.txt`) |
 | 05 | Algorithms | searching, sorting, the Sieve of Eratosthenes (all primes up to N at once), Big O (how fast code is), greedy algorithms and dynamic programming, interview-style coding practice (keep practicing through the later phases) |
 | 06 | Files and errors | reading/writing files, CSV, JSON, `try`/`except` |
 | 07 | Object-oriented programming | classes, objects, inheritance |
@@ -69,6 +60,8 @@ Each phase below opens with the details.
 
 <details>
 <summary><b>Phase 2 — Tools & good practices</b></summary>
+
+<img src="assets/git-logo.svg" alt="Git" title="Git" width="32">&nbsp;<img src="assets/github-logo.svg" alt="GitHub" title="GitHub" width="32">&nbsp;<img src="assets/githubactions-logo.svg" alt="GitHub Actions" title="GitHub Actions" width="32">&nbsp;<img src="assets/linux-logo.svg" alt="Linux" title="Linux" width="32">&nbsp;<img src="assets/pytest-logo.svg" alt="pytest" title="pytest" width="32">&nbsp;<img src="assets/ruff-logo.svg" alt="Ruff" title="Ruff" width="32">
 
 | Level | Topic | What you will learn |
 |---|---|---|
@@ -82,6 +75,8 @@ Each phase below opens with the details.
 
 <details>
 <summary><b>Phase 3 — My first AI</b></summary>
+
+<img src="assets/claude-logo.svg" alt="Claude" title="Claude" width="32">&nbsp;<img src="assets/pydantic-logo.svg" alt="Pydantic" title="Pydantic" width="32">
 
 | Level | Topic | What you will learn |
 |---|---|---|
@@ -106,6 +101,8 @@ Each phase below opens with the details.
 <details>
 <summary><b>Phase 5 — Data analysis</b></summary>
 
+<img src="assets/postgresql-logo.svg" alt="PostgreSQL" title="PostgreSQL" width="32">&nbsp;<img src="assets/numpy-logo.svg" alt="NumPy" title="NumPy" width="32">&nbsp;<img src="assets/pandas-logo.svg" alt="pandas" title="pandas" width="32">&nbsp;<img src="assets/matplotlib-logo.svg" alt="Matplotlib" title="Matplotlib" width="32">&nbsp;<img src="assets/seaborn-logo.svg" alt="Seaborn" title="Seaborn" width="32">&nbsp;<img src="assets/streamlit-logo.svg" alt="Streamlit" title="Streamlit" width="32">
+
 | Level | Topic | What you will learn |
 |---|---|---|
 | 14 | SQL | PostgreSQL, `SELECT`, `JOIN`, aggregations |
@@ -123,10 +120,12 @@ Each phase below opens with the details.
 <details>
 <summary><b>Phase 6 — AI in processes</b></summary>
 
+<img src="assets/claude-logo.svg" alt="Claude" title="Claude" width="32">&nbsp;<img src="assets/postgresql-logo.svg" alt="PostgreSQL" title="PostgreSQL" width="32">
+
 | Level | Topic | What you will learn |
 |---|---|---|
 | 21 | LLMs in practice | classify text, extract data from documents, structured output, measuring cost and response time |
-| 22 | Agents and RAG | AI that runs tasks and reads internal documents to answer, embeddings and vector databases, evaluating LLM apps, AI safety and security (prompt injection, data leaks, unsafe agent actions) |
+| 22 | Agents and RAG | AI that runs tasks and reads internal documents to answer, embeddings and vector databases (Chroma to start, then pgvector inside PostgreSQL), evaluating LLM apps, AI safety and security (prompt injection, data leaks, unsafe agent actions) |
 | 23 | LLMs in production | streaming, caching, rate limits, fallbacks, tracing what the app did |
 
 🎯 **Project:** an assistant that reads e-mails or documents and fills a spreadsheet.
@@ -135,6 +134,8 @@ Each phase below opens with the details.
 
 <details>
 <summary><b>Phase 7 — Machine Learning</b></summary>
+
+<img src="assets/scikitlearn-logo.svg" alt="scikit-learn" title="scikit-learn" width="32">
 
 | Level | Topic | What you will learn |
 |---|---|---|
@@ -148,24 +149,28 @@ Each phase below opens with the details.
 <details>
 <summary><b>Phase 8 — Deep Learning</b></summary>
 
+<img src="assets/pytorch-logo.svg" alt="PyTorch" title="PyTorch" width="32">&nbsp;<img src="assets/huggingface-logo.svg" alt="Hugging Face" title="Hugging Face" width="32">
+
 | Level | Topic | What you will learn |
 |---|---|---|
 | 26 | Neural networks | PyTorch: tensors, autograd, build and train your own network |
 | 27 | Computer vision | CNNs: teach a model to recognize images |
 | 28 | Transformers & Hugging Face | attention, embeddings, using and fine-tuning pretrained models (LoRA) |
-| 29 | Reinforcement learning | an agent that learns by trial and error (Gymnasium, Stable-Baselines3) |
+| 29 | Reinforcement learning | an agent that learns by trial and error (Gymnasium, Stable-Baselines3). Mini-project: the **red-ball agent**, an AI that learns to reach a random target as fast as it can |
 
-🎯 **Project:** the **red-ball agent** — an AI that learns to reach a random target as fast as it can. (Plus a fine-tuned Hugging Face model.)
+🎯 **Project:** fine-tune a Hugging Face model to sort customer-support messages into categories, using a **public dataset** (no private or company data), and compare it with the Phase 6 LLM approach: accuracy, cost and speed.
 
 </details>
 
 <details>
 <summary><b>Phase 9 — ML Engineering</b></summary>
 
+<img src="assets/fastapi-logo.svg" alt="FastAPI" title="FastAPI" width="32">&nbsp;<img src="assets/postgresql-logo.svg" alt="PostgreSQL" title="PostgreSQL" width="32">&nbsp;<img src="assets/docker-logo.svg" alt="Docker" title="Docker" width="32">&nbsp;<img src="assets/aws-logo.svg" alt="AWS" title="AWS" width="32">&nbsp;<img src="assets/mlflow-logo.svg" alt="MLflow" title="MLflow" width="32">
+
 | Level | Topic | What you will learn |
 |---|---|---|
 | 30 | Serve a model | wrap a model in a FastAPI API, connect it to PostgreSQL and package it with Docker |
-| 31 | Cloud & MLOps | deploy to a free cloud tier, track experiments with MLflow, monitor the model, system design interview practice |
+| 31 | Cloud & MLOps | deploy to AWS (using the free plan credits), track experiments with MLflow, monitor the model, system design interview practice |
 
 🎯 **Project:** a model of mine **live on the internet**, with an API and basic monitoring.
 
