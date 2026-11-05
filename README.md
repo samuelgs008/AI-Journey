@@ -1,4 +1,4 @@
-# Python-Journey &nbsp;<img src="assets\image.png" alt="Python Logo" width="28" align="center">
+# Python-Journey &nbsp;<img src="assets/image.png" alt="Python Logo" width="36" align="top">
 
 A Python roadmap made with [Claude](https://claude.com/claude-code) to study Python from basics all the way to automation and artificial intelligence applied to real processes. 
 
