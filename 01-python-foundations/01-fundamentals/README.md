@@ -1,6 +1,6 @@
 ## Progress
 
-🚩 = has a bug, fix it · 🔧 = works, but can be refactored
+🚩 = has a bug, fix it · 🔧 = works, but can be refactored · <img src="../../assets/excalidraw-logo.png" alt="Excalidraw" width="16"> = has an algorithm drawing
 
 | # | Exercise | Solved | Challenge |
 |---|---|:---:|:---:|
@@ -19,4 +19,4 @@
 | 13 | [Star Triangle](13-star-triangle/) | ✅ | ✅ |
 | 14 | [Grade Validator](14-grade-validator/) | ✅ | ✅ |
 | 15 | [Prime Number](15-prime-number/) | ✅ | ✅ |
-| 16 | [Reverse Number](16-challenge-reverse-number/) | ⬜ | ⬜ |
+| 16 | [Reverse Number](16-challenge-reverse-number/) [<img src="../../assets/excalidraw-logo.png" alt="Excalidraw drawing" width="16">](16-challenge-reverse-number/README.md#my-algorithm) | ✅ | ⬜ |

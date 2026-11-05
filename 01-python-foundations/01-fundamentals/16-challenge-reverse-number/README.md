@@ -54,6 +54,12 @@ DIGIT SUM = 7
 
 </details>
 
+## My algorithm
+
+How I planned the solution in [Excalidraw](https://excalidraw.com/) before writing the code:
+
+![Flowchart of the reverse number algorithm](Algorithm.png)
+
 ## ⚡ Challenge
 
 A number is a **palindrome** when it reads the same both ways, like 12321. Here you learn that some loops **destroy** the value they use, and you hunt for **edge cases**.

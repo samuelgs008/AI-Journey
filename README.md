@@ -1,10 +1,18 @@
-# Python-Journey 🐍
+# Python-Journey &nbsp;<img src="assets\image.png" alt="Python Logo" width="28" align="center">
 
-A Python journey made with [Claude](https://claude.com/claude-code) to study Python from scratch. The exercises are inspired by beecrowd: each one has a problem statement, input/output descriptions and sample cases. They don't follow beecrowd 100%, though: from Level 04 on, the journey is **more projects than exercises**. The path goes from the basics all the way to automation and artificial intelligence applied to real processes, one exercise at a time.
+A Python roadmap made with [Claude](https://claude.com/claude-code) to study Python from basics all the way to automation and artificial intelligence applied to real processes. 
 
-Claude creates the exercises and projects and acts only as a **tutor**: it never writes the solutions or gives the answers. All the code is written by me. When I get stuck, Claude gives hints, explains concepts and errors, and reviews my code after I solve it.
+Some exercises are inspired by beecrowd: each one has a problem statement, input/output descriptions and sample cases. From Level 04 on, it is **more projects than exercises**.
+
+Claude only writes the exercise statements and project briefs. It never writes my solutions, and only shows an answer if I ask for it after really trying. All the code and pipelines or algorithms is written by me. When I get stuck, Claude gives hints, explains concepts and errors, and reviews my code after I solve it.
 
 To build pipelines, algorithms and solve mathematical problems, I will use [Excalidraw](https://excalidraw.com/)&nbsp;&nbsp;<img src="assets/excalidraw-logo.png" alt="Excalidraw Logo" width="28" align="center">
+For example:
+
+
+<img src="01-python-foundations\01-fundamentals\16-challenge-reverse-number\Algorithm.png" alt="Algorithm Example" width="650">
+
+#
 
 ### Solving is only half of it
 
