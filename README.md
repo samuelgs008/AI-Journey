@@ -46,13 +46,13 @@ Each phase below opens with the details.
 
 | Level | Topic | What you will learn |
 |---|---|---|
-| 01 | [Fundamentals](01-python-foundations/01-fundamentals/) | `print`, `input`, variables, types, `if`, `for`, `while`, `//` and `%`, `range` with steps, nested loops, `break` and `continue`, input validation |
-| 02 | Strings | concatenation, indexing, slicing, methods (`split`, `join`, `replace`...), formatting, immutability |
+| 01 | [Fundamentals](01-python-foundations/01-fundamentals/) ✅ | `print`, `input`, variables, types, `if`, `for`, `while`, `//` and `%`, `range` with steps, nested loops, `break` and `continue`, input validation |
+| 02 | [Strings](01-python-foundations/02-strings/) | quotes and escapes, raw and multi-line strings, `len`, indexing, slicing, immutability, methods (case, `is...`, `find`, `strip`, `replace`, `split`, `join`, `partition`...), comparing text, `ord`/`chr` and Unicode, formatting (alignment, separators, percentages), parsing text and log files |
 | 03 | Data structures | lists, tuples, dictionaries, sets, comprehensions |
-| 04 | Functions and recursion | `def`, parameters, return values, scope, `import`, `lambda`, `*args`/`**kwargs`, generators, decorators, type hints, and recursion: factorial, Fibonacci, Tower of Hanoi. Mini-project: an ASCII-art banner generator for the terminal (`pyfiglet` + `rich`: fonts, colors, panels, validated prompts, save to `.txt`) |
-| 05 | Algorithms | searching, sorting, the Sieve of Eratosthenes (all primes up to N at once), Big O (how fast code is), greedy algorithms and dynamic programming, interview-style coding practice (keep practicing through the later phases) |
-| 06 | Files and errors | reading/writing files, CSV, JSON, `try`/`except` |
-| 07 | Object-oriented programming | classes, objects, inheritance |
+| 04 | Functions and recursion | `def`, parameters, return values, scope, `import` and the standard library (`math`, `random`, `datetime` for dates), `lambda`, `*args`/`**kwargs`, generators, decorators, type hints, and recursion: factorial, Fibonacci, Tower of Hanoi. Mini-project: an ASCII-art banner generator for the terminal (`pyfiglet` + `rich`: fonts, colors, panels, validated prompts, save to `.txt`) |
+| 05 | Algorithms | searching, sorting, the Sieve of Eratosthenes (all primes up to N at once), Big O (how fast code is), number bases (binary and hexadecimal, converting by hand), greedy algorithms and dynamic programming, interview-style coding practice (keep practicing through the later phases) |
+| 06 | Files and errors | reading/writing files, CSV, JSON, `try`/`except`, text encodings (UTF-8 vs Windows-1252, the reason `ç` sometimes shows up as `Ã§`), regular expressions (`re`) to find and clean patterns in text, removing accents (`unicodedata`) |
+| 07 | Object-oriented programming | classes, objects, inheritance, `__str__` and `__repr__` (how your objects turn into text) |
 
 🎯 **Project:** a command-line expense tracker — add expenses, save them to a file, show totals and the biggest ones. (You'll analyze this same data in Phase 5.)
 
