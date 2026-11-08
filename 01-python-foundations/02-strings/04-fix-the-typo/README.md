@@ -63,7 +63,7 @@ code
 
 Here you learn the most common way to build a string: start **empty** and add one piece per loop turn. You also meet `enumerate()`, which gives you the index and the character together.
 
-Rules: no `[ ]` indexing (no `s[i]`), and a **single `print()`** at the end.
+Rules: no `[ ]` indexing (no `s[i]`), and a **single `print()`, after the loop**: it must run only once.
 
 ### Input
 
