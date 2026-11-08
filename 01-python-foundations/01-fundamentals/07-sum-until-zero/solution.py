@@ -7,6 +7,6 @@ while (n := int(input())) != 0:
 
 print(f"SUM = {total}",
       f"COUNT = {count}",
-      f"AVERAGE = {float(total / count) if count != 0 else count:.2f}",
-      sep="\n",end=""
+      f"AVERAGE = {total / count if count != 0 else 0:.2f}",
+      sep="\n", end=""
       )

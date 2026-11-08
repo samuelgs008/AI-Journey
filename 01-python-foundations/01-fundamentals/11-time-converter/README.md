@@ -51,6 +51,12 @@ Print `H:M:S`, where H is the hours, M the minutes and S the seconds. No leading
 
 </details>
 
+## My algorithm
+
+How I worked out the math before writing the code:
+
+![Diagram of converting seconds into hours, minutes and seconds](diagram.png)
+
 ## ⚡ Challenge
 
 Now add **days** and show the clock the way a digital watch does, always with 2 digits. Here you learn `divmod()`, which does `//` and `%` at once, and how to fill numbers with zeros.
