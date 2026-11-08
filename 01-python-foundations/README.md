@@ -33,7 +33,7 @@ From Level 02 on, each exercise has two files: `solution.py` for the main proble
 | 02 | [Hangman Hint](02-strings/02-hangman-hint/) | `len()`, indexes, negative indexes, `+` and `*` with text, `str()` · ⚡ counting from 1 vs from 0, `IndexError` | ✅ | ✅ |
 | 03 | [Slices](02-strings/03-slices/) | `[start:stop:step]`, slices never crash · ⚡ negative steps, reversing, palindromes | ✅ | ✅ |
 | 04 | [Fix the Typo](02-strings/04-fix-the-typo/) | immutability, rebuilding with slices · ⚡ building a string in a loop, `enumerate()` | ✅ | ✅ |
-| 05 | [Case Converter](02-strings/05-case-converter/) | methods: `.upper()`, `.lower()`, `.title()`, `.capitalize()`, `.swapcase()`, `.casefold()` · ⚡ your own `title()`, the previous-character pattern | ⬜ | ⬜ |
+| 05 | [Case Converter](02-strings/05-case-converter/) | methods: `.upper()`, `.lower()`, `.title()`, `.capitalize()`, `.swapcase()`, `.casefold()` · ⚡ your own `title()`, the previous-character pattern | ✅ | ⬜ |
 | 06 | [Password Strength](02-strings/06-password-strength/) | `.isupper()`, `.islower()`, `.isdigit()`, `.isalpha()`, `.isalnum()`, `.isspace()` · ⚡ validating before `int()`, `.isdecimal()`, `.startswith()`, `.endswith()` | ⬜ | ⬜ |
 | 07 | [Find the Word](02-strings/07-find-the-word/) | `in`, `.count()`, `.find()`, `.rfind()`, `.index()` · ⚡ overlapping matches, `.find()` with a start | ⬜ | ⬜ |
 | 08 | [Clean the Data](02-strings/08-clean-the-data/) | `.replace()`, `.strip()`, `.lstrip()`, `.rstrip()`, chaining · ⚡ the `.strip()` trap, `.removeprefix()`, `.removesuffix()`, `!r` | ⬜ | ⬜ |
