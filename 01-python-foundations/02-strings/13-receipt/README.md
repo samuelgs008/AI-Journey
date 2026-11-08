@@ -55,7 +55,7 @@ TOTAL                     0.99
 2. `f"{1234.5:,.2f}"` gives `"1,234.50"`: the comma separates the thousands.
 3. All together, in this order: alignment, width, separator, precision. Like `f"{x:>15,.2f}"`.
 4. The name and the price come on the same line: `name, price = input().split()`. Then convert the price.
-5. Bonus: try `print(0.1 + 0.2)`. Decimal numbers (floats) are not exact, in Python and in almost every language, and `:.2f` hides that by rounding. That's fine for printing, but programs that handle real money use `Decimal` (you'll be able to import it from Level 04 on).
+5. Bonus: try `print(0.1 + 0.2)`. Decimal numbers (floats) are not exact, in Python and in almost every language, and `:.2f` hides that by rounding. That's fine for printing, but programs that handle real money use `Decimal` (you'll be able to import it from Level 05 on).
 
 </details>
 
@@ -119,6 +119,6 @@ TOTAL            12.50
 3. Each line must have exactly W characters. If the name takes `len(name)`, how much space is left for the price?
 4. Strings also have methods for this: `.center()`, `.ljust()` and `.rjust()`. Try `"hi".center(10, "*")`. And `.zfill()`: `"42".zfill(5)` gives `"00042"`.
 5. Bonus: in older code you'll find `"%.2f" % x` and `"{:.2f}".format(x)`. They do the same as `f"{x:.2f}"`, with the same format spec. Now you can read them.
-6. Bonus: the format spec has more types you'll meet later: `f"{0.00012:.1e}"` gives `1.2e-04` (scientific notation, everywhere in Machine Learning), `f"{5:+}"` gives `+5` (always show the sign) and `f"{10:b}"` gives `1010` (binary, in Level 05).
+6. Bonus: the format spec has more types you'll meet later: `f"{0.00012:.1e}"` gives `1.2e-04` (scientific notation, everywhere in Machine Learning), `f"{5:+}"` gives `+5` (always show the sign) and `f"{10:b}"` gives `1010` (binary, in Level 07).
 
 </details>

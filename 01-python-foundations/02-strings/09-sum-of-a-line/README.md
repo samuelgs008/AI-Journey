@@ -47,7 +47,7 @@ SUM = 104
 
 1. Try `print("4 9 2".split())`. The result, `['4', '9', '2']`, is a **list** of strings. You'll study lists in Level 03. For now, all you need is that you can go through it with `for`.
 2. The pieces are still **text**: `"4" + "9"` gives `"49"`. Convert each piece before you add it.
-3. Try sample 3 with `.split(" ")` and then with `.split()`. Where do those `''` come from? Without an argument, `.split()` cuts at **any amount** of spaces and ignores the spaces at the ends. With an argument, it cuts exactly there: `"a,b,c".split(",")` is how CSV files are read (Level 06).
+3. Try sample 3 with `.split(" ")` and then with `.split()`. Where do those `''` come from? Without an argument, `.split()` cuts at **any amount** of spaces and ignores the spaces at the ends. With an argument, it cuts exactly there: `"a,b,c".split(",")` is how CSV files are read (Level 08).
 4. After you solve it, read the recipe again: `.split()` gives the pieces, `map(int, pieces)` applies `int` to each one, and `a, b, c = ...` spreads three values into three variables.
 
 </details>

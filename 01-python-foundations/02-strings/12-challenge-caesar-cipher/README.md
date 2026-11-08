@@ -63,7 +63,7 @@ def
 2. To wrap around, turn the letter into its position in the alphabet, from 0 to 25: `ord(ch) - ord("a")`. Add K and use `% 26`, the same trick as in Level 01's time converter. Then turn the position back into a letter.
 3. Uppercase letters have other codes (`ord("A")` is `65`). `.isupper()` and `.islower()` tell you which starting point to use.
 4. Bonus: every character in the world has a code, in any language, emojis included. This system is called **Unicode**. Try `ord("ã")` and `ord("😀")`. Then compare `len("😀")` with `len("😀".encode())`: saved in a file (UTF-8), one emoji takes 4 **bytes**.
-5. Bonus: you can write any character by its code: `"\u00e7"` is `"ç"` (`e7` is 231, the code of `ç`, written in hexadecimal, which you'll study in Level 05).
+5. Bonus: you can write any character by its code: `"\u00e7"` is `"ç"` (`e7` is 231, the code of `ç`, written in hexadecimal, which you'll study in Level 07).
 
 </details>
 
@@ -121,6 +121,6 @@ abc
 2. Write down the alphabet shifted by 3: `defghijklmnopqrstuvwxyzabc`. Can you build it with two slices of the normal alphabet?
 3. Encrypting goes from the normal alphabet to the shifted one. Decrypting goes the other way. And K can be bigger than 26...
 4. One table can handle uppercase too: glue the uppercase alphabets after the lowercase ones (`.upper()`!).
-5. Typing the alphabet is fine for now. From Level 04 on, `import string` gives you `string.ascii_lowercase`, ready to use.
+5. Typing the alphabet is fine for now. From Level 05 on, `import string` gives you `string.ascii_lowercase`, ready to use.
 
 </details>

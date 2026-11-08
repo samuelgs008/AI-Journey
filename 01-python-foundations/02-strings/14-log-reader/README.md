@@ -69,7 +69,7 @@ ERROR = 1
 3. `.split()` can also cut at a separator you choose: `"2026-11-07".split("-")` gives `['2026', '11', '07']`.
 4. You don't know how many lines will come, so read until `END`. The walrus from Level 01, exercise 07, fits here.
 5. Look at sample 3: an `INFO` entry has the word `ERROR` in its message. `"ERROR" in line` would be fooled. Check the level, not the whole line.
-6. Bonus: in Level 06 you'll read whole files into one string. Then `text.splitlines()` gives you the lines, like `.split()` gives you the words.
+6. Bonus: in Level 08 you'll read whole files into one string. Then `text.splitlines()` gives you the lines, like `.split()` gives you the words.
 
 </details>
 

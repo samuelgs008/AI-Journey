@@ -80,7 +80,7 @@ STRONG
 
 ## ⚡ Challenge
 
-Here you learn to **validate text before converting it**: `int("abc")` crashes your program, and the proper fix (`try`/`except`) only comes in Level 06. You also meet `.startswith()`.
+Here you learn to **validate text before converting it**: `int("abc")` crashes your program, and the proper fix (`try`/`except`) only comes in Level 08. You also meet `.startswith()`.
 
 Rules: the program must **never crash**, whatever the input.
 
