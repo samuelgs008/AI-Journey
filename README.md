@@ -20,6 +20,11 @@ The technologies this roadmap covers (hover over a logo to see its name):
 
 ## Books
 
+| <a href="BOOKS.md"><img src="assets/book-grokking-algorithms.jpg" alt="Grokking Algorithms book cover" title="Grokking Algorithms" height="180"></a> | <a href="BOOKS.md"><img src="assets/book-ai-engineering.jpg" alt="AI Engineering book cover" title="AI Engineering" height="180"></a> | <a href="BOOKS.md"><img src="assets/book-designing-ml-systems.jpg" alt="Designing Machine Learning Systems book cover" title="Designing Machine Learning Systems" height="180"></a> |
+|:---:|:---:|:---:|
+| **Grokking Algorithms**<br>(1st edition)<br>Aditya Y. Bhargava | **AI Engineering**<br>Chip Huyen | **Designing Machine<br>Learning Systems**<br>Chip Huyen |
+| algorithms and<br>data structures | building applications<br>with LLMs | machine learning<br>in production |
+
 📖 **[Reading plan](BOOKS.md)**: the books I study with and the chapters for each level.
 
 ## Roadmap
