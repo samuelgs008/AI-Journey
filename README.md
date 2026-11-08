@@ -18,15 +18,6 @@ The technologies this roadmap covers (hover over a logo to see its name):
 | **Machine Learning** | <img src="assets/scikitlearn-logo.svg" alt="scikit-learn" title="scikit-learn" width="36">&nbsp;<img src="assets/pytorch-logo.svg" alt="PyTorch" title="PyTorch" width="36"> |
 | **Production** | <img src="assets/fastapi-logo.svg" alt="FastAPI" title="FastAPI" width="36">&nbsp;<img src="assets/docker-logo.svg" alt="Docker" title="Docker" width="36">&nbsp;<img src="assets/aws-logo.svg" alt="AWS" title="AWS" width="36">&nbsp;<img src="assets/mlflow-logo.svg" alt="MLflow" title="MLflow" width="36"> |
 
-## Books
-
-| <a href="BOOKS.md"><img src="assets/book-grokking-algorithms.jpg" alt="Grokking Algorithms book cover" title="Grokking Algorithms" height="180"></a> | <a href="BOOKS.md"><img src="assets/book-ai-engineering.jpg" alt="AI Engineering book cover" title="AI Engineering" height="180"></a> | <a href="BOOKS.md"><img src="assets/book-designing-ml-systems.jpg" alt="Designing Machine Learning Systems book cover" title="Designing Machine Learning Systems" height="180"></a> |
-|:---:|:---:|:---:|
-| **Grokking Algorithms**<br>(1st edition)<br>Aditya Y. Bhargava | **AI Engineering**<br>Chip Huyen | **Designing Machine<br>Learning Systems**<br>Chip Huyen |
-| algorithms and<br>data structures | building applications<br>with LLMs | machine learning<br>in production |
-
-📖 **[Reading plan](BOOKS.md)**: the books I study with and the chapters for each level.
-
 ## Roadmap
 
 The goal: **improve real processes with Python and AI, and grow toward AI or Machine Learning Engineering**. The journey is split into phases, and each phase ends with a **project** for my portfolio.
@@ -196,3 +187,11 @@ A complete AI automation, end to end, with the **before and after measured**, us
 
 </details>
 
+## Books
+
+| <a href="BOOKS.md"><img src="assets/book-grokking-algorithms.jpg" alt="Grokking Algorithms book cover" title="Grokking Algorithms" height="180"></a> | <a href="BOOKS.md"><img src="assets/book-ai-engineering.jpg" alt="AI Engineering book cover" title="AI Engineering" height="180"></a> | <a href="BOOKS.md"><img src="assets/book-designing-ml-systems.jpg" alt="Designing Machine Learning Systems book cover" title="Designing Machine Learning Systems" height="180"></a> |
+|:---:|:---:|:---:|
+| **Grokking Algorithms**<br>(1st edition)<br>Aditya Y. Bhargava | **AI Engineering**<br>Chip Huyen | **Designing Machine<br>Learning Systems**<br>Chip Huyen |
+| algorithms and<br>data structures | building applications<br>with LLMs | machine learning<br>in production |
+
+📖 **[Reading plan](BOOKS.md)**: the books I study with and the chapters for each level.
