@@ -34,6 +34,7 @@ The goal: **improve real processes with Python and AI, and grow toward AI or Mac
 | 8 — Deep Learning | PyTorch, computer vision, transformers, reinforcement learning | a fine-tuned model vs. an LLM | ⚪ Locked |
 | 9 — ML Engineering | put a model in production (FastAPI, Docker, AWS, MLflow) | a deployed model with an API & monitoring | ⚪ Locked |
 | Final | everything together | end-to-end AI automation | ⚪ Locked |
+| Side track — Competitive programming | contest algorithms, alongside the phases (optional) | my first contest (OBI, Maratona or Codeforces) | ⚪ Locked |
 
 Each phase below opens with the details. The 📖 column shows which book chapters go with each level: click it to see the chapters in [BOOKS.md](BOOKS.md).
 
@@ -48,13 +49,13 @@ Each phase below opens with the details. The 📖 column shows which book chapte
 | 02 | [Strings](01-python-foundations/#level-02-strings) | quotes and escapes, raw and multi-line strings, `len`, indexing, slicing, immutability, methods (case, `is...`, `find`, `strip`, `replace`, `split`, `join`, `partition`...), comparing text, `ord`/`chr` and Unicode, formatting (alignment, separators, percentages), parsing text and log files |  |
 | 03 | Data structures | lists (indexing and slicing like strings, `append`, `insert`, `remove`, `pop`, `sort` vs `sorted`, `min`/`max`/`sum`), mutability and copies (why changing one list can change another), lists of lists (grids and tables), tuples and unpacking, dictionaries (keys and values, `.get()`, looping with `.items()`, counting and grouping), sets (removing duplicates, fast `in`, union and intersection), nested data (a list of dictionaries: the shape of JSON), `enumerate` and `zip`, comprehensions (list, dict and set) |  |
 | 04 | Functions | `def`, parameters (default values, keyword arguments), return values (returning several at once), scope (local vs global), docstrings, `lambda` and `sorted(key=...)`, `map` and `filter`, `*args`/`**kwargs`, type hints |  |
-| 05 | Modules and the standard library | `import` and the standard library (`math`, `random`, `string`, `datetime` for dates, `decimal` for money), splitting your code across files (your own modules), `if __name__ == "__main__"`, reading command-line arguments with `sys.argv`, your first `pip install`, your first tests with `pytest` (a test file, `assert`, running `pytest`). Mini-project: an ASCII-art banner generator for the terminal (`pyfiglet` + `rich`: fonts, colors, panels, validated prompts, save to `.txt`) |  |
-| 06 | Recursion | the base case, how the call stack works, factorial, Fibonacci, Tower of Hanoi, recursion vs loops (and Python's recursion limit) | [Grokking ch. 3](BOOKS.md) |
-| 07 | Algorithms | searching, sorting, the Sieve of Eratosthenes (all primes up to N at once), Big O (how fast code is), number bases (binary and hexadecimal, converting by hand), greedy algorithms (and NP-complete problems: why some problems have no known fast solution), dynamic programming, interview-style coding practice (keep practicing through the later phases) | [Grokking ch. 1, 2, 4, 8, 9](BOOKS.md) |
+| 05 | Modules and the standard library | `import` and the standard library (`math`, `random`, `string`, `datetime` for dates, `decimal` for money), splitting your code across files (your own modules), `if __name__ == "__main__"`, reading command-line arguments with `sys.argv`, fast input with `sys.stdin.readline` (for very big inputs), your first `pip install`, your first tests with `pytest` (a test file, `assert`, running `pytest`). Mini-project: an ASCII-art banner generator for the terminal (`pyfiglet` + `rich`: fonts, colors, panels, validated prompts, save to `.txt`) |  |
+| 06 | Recursion | the base case, how the call stack works, factorial, Fibonacci, Tower of Hanoi, GCD with Euclid's algorithm, recursion vs loops (and Python's recursion limit) | [Grokking ch. 3](BOOKS.md) |
+| 07 | Algorithms | searching, sorting, binary search (and binary search on the answer), two pointers, prefix sums (the same idea as cumulative sums in pandas), the Sieve of Eratosthenes (all primes up to N at once), fast modular exponentiation (`pow(a, b, m)`), Big O (how fast code is), number bases (binary and hexadecimal, converting by hand) and bitmasks (a set stored in the bits of a number: trying every subset), greedy algorithms (and NP-complete problems: why some problems have no known fast solution), dynamic programming, interview-style coding practice (keep practicing through the later phases) | [Grokking ch. 1, 2, 4, 8, 9](BOOKS.md) |
 | 08 | Files and errors | reading/writing files, `pathlib` (file paths that work on any computer), CSV, JSON, `try`/`except`, raising errors with `raise` and creating your own exceptions, text encodings (UTF-8 vs Windows-1252, the reason `ç` sometimes shows up as `Ã§`), regular expressions (`re`) to find and clean patterns in text, removing accents (`unicodedata`) |  |
 | 09 | Object-oriented programming | classes, objects, class variables (shared by all objects), inheritance, `__str__` and `__repr__` (how your objects turn into text), operator overloading (`__add__`, `__eq__`: making `+` and `==` work with your objects) |  |
 | 10 | Classic data structures | stacks and queues (`collections.deque`), linked lists, hash tables (how dictionaries work inside: hashing and collisions), trees and binary search trees, heaps and priority queues (`heapq`): building them with your own classes, and choosing the right one for each problem (with Big O) | [Grokking ch. 5, 11](BOOKS.md) |
-| 11 | Graphs | graph theory basics (vertices and edges, directed and weighted graphs, paths, cycles, connected components), storing a graph in a dictionary, walking it with BFS and DFS, shortest paths (Dijkstra), the cheapest way to connect everything (minimum spanning tree), putting tasks in the right order (topological sort, like the steps of a process) | [Grokking ch. 6, 7](BOOKS.md) |
+| 11 | Graphs | graph theory basics (vertices and edges, directed and weighted graphs, paths, cycles, connected components), storing a graph in a dictionary, walking it with BFS and DFS, shortest paths (Dijkstra), grouping things that belong together with Union-Find (DSU), the cheapest way to connect everything (minimum spanning tree with Kruskal and DSU), putting tasks in the right order (topological sort, like the steps of a process) | [Grokking ch. 6, 7](BOOKS.md) |
 | 12 | Iterators, generators and decorators | how `for` really works (`iter()` and `next()`), generators (`yield`: reading huge files without running out of memory), decorators (functions that wrap other functions, `@property`, `@staticmethod`, `@classmethod`) |  |
 
 🎯 **Project:** a command-line expense tracker — add expenses, save them to a file, show totals and the biggest ones. The code is split into modules, and you run it with commands like `python tracker.py add 12.50 food` or `python tracker.py report` (`argparse`). (You'll analyze this same data in Phase 5.)
@@ -184,6 +185,23 @@ Each phase below opens with the details. The 📖 column shows which book chapte
 <summary><b>Final project</b></summary>
 
 A complete AI automation, end to end, with the **before and after measured**, used by **a real person** other than me.
+
+</details>
+
+<details>
+<summary><b>Side track — Competitive programming</b></summary>
+
+Optional, and it runs **alongside** the main phases: each step opens once its "Start after" level is done. Contests train fast, correct thinking under pressure. For AI projects, the parts that help most are Big O, binary search, prefix sums, DSU and modular hashing.
+
+| Step | Topic | What you will learn | Start after |
+|---|---|---|---|
+| C1 | Contest basics | beecrowd, OBI and Codeforces, reading the limits to choose the right Big O (N ≤ 10⁵ → O(N log N)), fast input and output in Python, testing edge cases, upsolving (solving after the contest what you couldn't during it) | Level 07 |
+| C2 | Number theory and combinatorics | GCD and LCM, modular arithmetic (mod 10⁹+7), the modular inverse, counting (permutations, combinations, nCr with factorials), inclusion-exclusion | Level 07 |
+| C3 | Advanced data structures | DSU with path compression and union by size, prefix sums in 2D, Fenwick tree (BIT), segment tree (sums and minimums over ranges, with updates) | Level 11 |
+| C4 | Geometry | points and vectors, the cross product (turning left or right?), segment intersection, polygon area (shoelace formula), convex hull | Level 20 (NumPy & linear algebra) |
+| C5 | C++ for contests | when Python is too slow, the same solutions in C++, the STL (`vector`, `sort`, `map`, `set`, `priority_queue`) | Level 14 (Code quality) |
+
+🎯 **Goal:** take part in a real contest (OBI, Maratona de Programação or a Codeforces round).
 
 </details>
 
