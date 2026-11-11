@@ -35,7 +35,7 @@ From Level 02 on, each exercise has two files: `solution.py` for the main proble
 | 04 | [Fix the Typo](02-strings/04-fix-the-typo/) | immutability, rebuilding with slices · ⚡ building a string in a loop, `enumerate()` | ✅ | ✅ |
 | 05 | [Case Converter](02-strings/05-case-converter/) | methods: `.upper()`, `.lower()`, `.title()`, `.capitalize()`, `.swapcase()`, `.casefold()` · ⚡ your own `title()`, the previous-character pattern | ✅ | ✅ |
 | 06 | [Password Strength](02-strings/06-password-strength/) | `.isupper()`, `.islower()`, `.isdigit()`, `.isalpha()`, `.isalnum()`, `.isspace()` · ⚡ validating before `int()`, `.isdecimal()`, `.startswith()`, `.endswith()` | ✅ | ✅ |
-| 07 | [Find the Word](02-strings/07-find-the-word/) | `in`, `.count()`, `.find()`, `.rfind()`, `.index()` · ⚡ overlapping matches, `.find()` with a start | ⬜ | ⬜ |
+| 07 | [Find the Word](02-strings/07-find-the-word/) | `in`, `.count()`, `.find()`, `.rfind()`, `.index()` · ⚡ overlapping matches, `.find()` with a start | ✅ | ⬜ |
 | 08 | [Clean the Data](02-strings/08-clean-the-data/) | `.replace()`, `.strip()`, `.lstrip()`, `.rstrip()`, chaining · ⚡ the `.strip()` trap, `.removeprefix()`, `.removesuffix()`, `!r` | ⬜ | ⬜ |
 | 09 | [Sum of a Line](02-strings/09-sum-of-a-line/) | `.split()`, the `map(int, input().split())` recipe · ⚡ `.join()`, `sum()` | ⬜ | ⬜ |
 | 10 | [Initials](02-strings/10-initials/) | split, transform, glue · ⚡ `.rsplit()`, `maxsplit`, `.partition()`, `.rpartition()`, unpacking | ⬜ | ⬜ |
