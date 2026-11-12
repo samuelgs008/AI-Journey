@@ -1,4 +1,4 @@
-# 15 - 🏆 Final Challenge: Run-Length Encoding
+# 12 - 🏆 Final Challenge: Run-Length Encoding
 
 The final challenge of Strings! Long runs of the same character waste space. **Run-length encoding** (RLE) compresses them: `aaabcccc` becomes `a3b1c4`. Old image formats and fax machines used this idea.
 

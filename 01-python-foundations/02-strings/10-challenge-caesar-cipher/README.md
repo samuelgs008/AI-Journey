@@ -1,8 +1,8 @@
-# 12 - 🏆 Challenge: Caesar Cipher
+# 10 - 🏆 Challenge: Caesar Cipher
 
 Julius Caesar hid his messages by shifting each letter of the alphabet. With a shift of 3, `A` becomes `D`, `B` becomes `E`... and at the end it wraps around: `X` becomes `A`.
 
-Here you learn that, inside the computer, every character is a **number**, and you do math with letters using `ord()` and `chr()`.
+Here you learn that, inside the computer, every character is a **number**, and you do math with letters using `ord()` and `chr()`. These numbers also explain the surprise from exercise 09: why Python thinks `"Zebra"` comes before `"apple"`.
 
 Read a shift **K** and a message, and print the encrypted message.
 
@@ -62,8 +62,9 @@ def
 1. `ord("a")` gives `97`, and `chr(97)` gives `"a"`: they are opposites. Try `chr(ord("a") + 3)`.
 2. To wrap around, turn the letter into its position in the alphabet, from 0 to 25: `ord(ch) - ord("a")`. Add K and use `% 26`, the same trick as in Level 01's time converter. Then turn the position back into a letter.
 3. Uppercase letters have other codes (`ord("A")` is `65`). `.isupper()` and `.islower()` tell you which starting point to use.
-4. Bonus: every character in the world has a code, in any language, emojis included. This system is called **Unicode**. Try `ord("ã")` and `ord("😀")`. Then compare `len("😀")` with `len("😀".encode())`: saved in a file (UTF-8), one emoji takes 4 **bytes**.
-5. Bonus: you can write any character by its code: `"\u00e7"` is `"ç"` (`e7` is 231, the code of `ç`, written in hexadecimal, which you'll study in Level 07).
+4. Now compare `ord("Z")` (90) with `ord("a")` (97). When Python compares text, it compares these codes, one character at a time. That's why `"Zebra" < "apple"` is `True`, and why exercise 09 compared the names in lowercase.
+5. Bonus: every character in the world has a code, in any language, emojis included. This system is called **Unicode**. Try `ord("ã")` and `ord("😀")`. Then compare `len("😀")` with `len("😀".encode())`: saved in a file (UTF-8), one emoji takes 4 **bytes**.
+6. Bonus: you can write any character by its code: `"\u00e7"` is `"ç"` (`e7` is 231, the code of `ç`, written in hexadecimal, a way of writing numbers you'll meet later).
 
 </details>
 

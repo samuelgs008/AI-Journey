@@ -64,17 +64,22 @@ NOT FOUND
 
 ## ⚡ Challenge
 
-Here you learn that `.count()` skips **overlapping** matches, and how to search step by step with the second argument of `.find()`.
+Here you learn that `.count()` skips **overlapping** matches, and how to search step by step with the second argument of `.find()`. Then you go from *finding* to *replacing*: `.replace()` finds and swaps in one go.
 
 Rules: don't use `.count()` or slices to find the overlapping matches.
 
 ### Input
 
-The same as the main problem: a text **T** and a word **W**.
+Three lines: a text **T** and a word **W**, like in the main problem, and a new word **R**.
 
 ### Output
 
-Print two lines: `COUNT = X`, the result of `.count()`, and `OVERLAPPING = Y`, the number of matches when they are allowed to share characters. In `aaaa`, the word `aa` starts at indexes 0, 1 and 2: that's 3 overlapping matches.
+Print four lines:
+
+- `COUNT = X`: the result of `.count()`.
+- `OVERLAPPING = Y`: the number of matches when they are allowed to share characters. In `aaaa`, the word `aa` starts at indexes 0, 1 and 2: that's 3 overlapping matches.
+- `ALL = ...`: the text with **every** W replaced by R.
+- `FIRST = ...`: the text with only the **first** W replaced by R.
 
 ### Samples
 
@@ -84,30 +89,52 @@ Print two lines: `COUNT = X`, the result of `.count()`, and `OVERLAPPING = Y`, t
 <td><pre>
 aaaa
 aa
+b
 </pre></td>
 <td><pre>
 COUNT = 2
 OVERLAPPING = 3
+ALL = bb
+FIRST = baa
 </pre></td>
 </tr>
 <tr>
 <td><pre>
 banana
 ana
+ANA
 </pre></td>
 <td><pre>
 COUNT = 1
 OVERLAPPING = 2
+ALL = bANAna
+FIRST = bANAna
+</pre></td>
+</tr>
+<tr>
+<td><pre>
+the cat and the hat
+the
+a
+</pre></td>
+<td><pre>
+COUNT = 2
+OVERLAPPING = 2
+ALL = a cat and a hat
+FIRST = a cat and the hat
 </pre></td>
 </tr>
 <tr>
 <td><pre>
 abc
 d
+x
 </pre></td>
 <td><pre>
 COUNT = 0
 OVERLAPPING = 0
+ALL = abc
+FIRST = abc
 </pre></td>
 </tr>
 </table>
@@ -118,5 +145,7 @@ OVERLAPPING = 0
 1. `.find()` accepts a second number: where to **start** searching. Try `"banana".find("ana", 2)`.
 2. When you find a match at index `p`, the next search starts at `p + 1`. Why not at `p + len(w)`? (That's what `.count()` does!)
 3. Keep searching until `.find()` gives `-1`. The walrus `:=` from Level 01 fits nicely in this `while`.
+4. `.replace(old, new)` swaps every `old` for `new`: `"a-b-c".replace("-", "")` gives `"abc"`. A third argument limits how many swaps happen: `"a-b-c".replace("-", "", 1)` gives `"ab-c"`.
+5. Look at sample 1: `.replace()` swaps like `.count()` counts, without overlapping. And it doesn't change `t`: strings are immutable (exercise 04), so it gives you a **new** string.
 
 </details>

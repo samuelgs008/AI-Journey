@@ -35,12 +35,9 @@ From Level 02 on, each exercise has two files: `solution.py` for the main proble
 | 04 | [Fix the Typo](02-strings/04-fix-the-typo/) | immutability, rebuilding with slices · ⚡ building a string in a loop, `enumerate()` | ✅ | ✅ |
 | 05 | [Case Converter](02-strings/05-case-converter/) | methods: `.upper()`, `.lower()`, `.title()`, `.capitalize()`, `.swapcase()`, `.casefold()` · ⚡ your own `title()`, the previous-character pattern | ✅ | ✅ |
 | 06 | [Password Strength](02-strings/06-password-strength/) | `.isupper()`, `.islower()`, `.isdigit()`, `.isalpha()`, `.isalnum()`, `.isspace()` · ⚡ validating before `int()`, `.isdecimal()`, `.startswith()`, `.endswith()` | ✅ | ✅ |
-| 07 | [Find the Word](02-strings/07-find-the-word/) | `in`, `.count()`, `.find()`, `.rfind()`, `.index()` · ⚡ overlapping matches, `.find()` with a start | ✅ | ⬜ |
-| 08 | [Clean the Data](02-strings/08-clean-the-data/) | `.replace()`, `.strip()`, `.lstrip()`, `.rstrip()`, chaining · ⚡ the `.strip()` trap, `.removeprefix()`, `.removesuffix()`, `!r` | ⬜ | ⬜ |
-| 09 | [Sum of a Line](02-strings/09-sum-of-a-line/) | `.split()`, the `map(int, input().split())` recipe · ⚡ `.join()`, `sum()` | ⬜ | ⬜ |
-| 10 | [Initials](02-strings/10-initials/) | split, transform, glue · ⚡ `.rsplit()`, `maxsplit`, `.partition()`, `.rpartition()`, unpacking | ⬜ | ⬜ |
-| 11 | [Dictionary Order](02-strings/11-dictionary-order/) | comparing text, character codes · ⚡ ignoring case, "greatest so far" with text | ⬜ | ⬜ |
-| 12 | [🏆 Caesar Cipher](02-strings/12-challenge-caesar-cipher/) | `ord()`, `chr()`, Unicode, bytes · ⚡ `str.maketrans()`, `.translate()` | ⬜ | ⬜ |
-| 13 | [Receipt](02-strings/13-receipt/) | format spec: width, alignment, `,` separator, precision · ⚡ fill characters, dynamic width, `.center()`, `.ljust()`, `.rjust()`, `.zfill()`, old `%` and `.format()` | ⬜ | ⬜ |
-| 14 | [Log Reader](02-strings/14-log-reader/) | reading until `END`, `.split()` with a separator and `maxsplit`, real-looking data · ⚡ comparing times as text, the `%` format | ⬜ | ⬜ |
-| 15 | [🏆 Run-Length Encoding](02-strings/15-challenge-run-length-encoding/) | compressing text: everything together · ⚡ parsing text, numbers with many digits | ⬜ | ⬜ |
+| 07 | [Find the Word](02-strings/07-find-the-word/) | `in`, `.count()`, `.find()`, `.rfind()`, `.index()` · ⚡ overlapping matches, `.find()` with a start, `.replace()` (and limiting the swaps) | ✅ | ⬜ |
+| 08 | [Clean the Data](02-strings/08-clean-the-data/) | `.split()` with a separator, `.strip()`, `.lstrip()`, `.rstrip()`, `.removeprefix()`, `.removesuffix()`, chaining, the `.strip()` trap, `!r`, the `,` separator · ⚡ `.join()`, `map()` and `sum()`, the `map(int, input().split())` recipe | ⬜ | ⬜ |
+| 09 | [Contact List](02-strings/09-contact-list/) | split, transform, glue, comparing text, ignoring case, "greatest so far" with text · ⚡ `.rsplit()`, `maxsplit`, `.partition()`, `.rpartition()`, unpacking | ⬜ | ⬜ |
+| 10 | [🏆 Caesar Cipher](02-strings/10-challenge-caesar-cipher/) | `ord()`, `chr()`, character codes (why `"Zebra" < "apple"`), Unicode, bytes · ⚡ `str.maketrans()`, `.translate()` | ⬜ | ⬜ |
+| 11 | [Log Report](02-strings/11-log-report/) | reading until `END`, `.split()` with `maxsplit`, real-looking data, format spec: width and alignment · ⚡ comparing times as text, fill characters, dynamic width, the `%` format, `.center()`, `.ljust()`, `.rjust()`, `.zfill()`, old `%` and `.format()` | ⬜ | ⬜ |
+| 12 | [🏆 Run-Length Encoding](02-strings/12-challenge-run-length-encoding/) | compressing text: everything together · ⚡ parsing text, numbers with many digits | ⬜ | ⬜ |
