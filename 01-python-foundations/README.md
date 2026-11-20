@@ -1,6 +1,6 @@
 # Phase 1 — Python foundations
 
-From Level 02 on, each exercise has two files: `solution.py` for the main problem and `challenge.py` for the ⚡ Challenge. In Level 01, `solution.py` holds the challenge version (the main versions are in the git history), except in 16, which has both files.
+From Level 02 on, each exercise is **one** problem with **one** file, `main.py`, and mixes everything learned so far. The hints are hidden in each README: I try on my own first. In Level 01, `solution.py` holds the challenge version (the main versions are in the git history), except in 16, which has both files.
 
 🚩 = has a bug, must fix it · 🔧 = works, but can be refactored · <img src="../assets/excalidraw-logo.png" alt="Excalidraw" width="16"> = has an algorithm drawing
 
@@ -25,19 +25,27 @@ From Level 02 on, each exercise has two files: `solution.py` for the main proble
 | 15 | [Prime Number](01-fundamentals/15-prime-number/) | `break`, a flag variable · ⚡ fast code (testing only up to √N), `for ... else` | ✅ | ✅ |
 | 16 | [🏆&nbsp;Reverse&nbsp;Number](01-fundamentals/16-challenge-reverse-number/)&nbsp;[<img src="../assets/excalidraw-logo.png" alt="Excalidraw drawing" width="16" align="center">](01-fundamentals/16-challenge-reverse-number/README.md#my-algorithm) | taking digits apart with `//` and `%`, `while` until 0 · ⚡ palindromes, saving a copy before the loop, edge cases | ✅ | ✅ |
 
-## Level 02: Strings
+## Level 02: Strings + Data Structures
 
-| # | Exercise | What you learn | Solved | Challenge |
-|---|---|---|:---:|:---:|
-| 01 | [Quotes and Escapes](02-strings/01-quotes-and-escapes/) | `'` vs `"`, escape sequences (`\"`, `\\`, `\n`, `\t`), braces in f-strings · ⚡ triple-quoted and raw strings | ✅ | ✅ |
-| 02 | [Hangman Hint](02-strings/02-hangman-hint/) | `len()`, indexes, negative indexes, `+` and `*` with text, `str()` · ⚡ counting from 1 vs from 0, `IndexError` | ✅ | ✅ |
-| 03 | [Slices](02-strings/03-slices/) | `[start:stop:step]`, slices never crash · ⚡ negative steps, reversing, palindromes | ✅ | ✅ |
-| 04 | [Fix the Typo](02-strings/04-fix-the-typo/) | immutability, rebuilding with slices · ⚡ building a string in a loop, `enumerate()` | ✅ | ✅ |
-| 05 | [Case Converter](02-strings/05-case-converter/) | methods: `.upper()`, `.lower()`, `.title()`, `.capitalize()`, `.swapcase()`, `.casefold()` · ⚡ your own `title()`, the previous-character pattern | ✅ | ✅ |
-| 06 | [Password Strength](02-strings/06-password-strength/) | `.isupper()`, `.islower()`, `.isdigit()`, `.isalpha()`, `.isalnum()`, `.isspace()` · ⚡ validating before `int()`, `.isdecimal()`, `.startswith()`, `.endswith()` | ✅ | ✅ |
-| 07 | [Find the Word](02-strings/07-find-the-word/) | `in`, `.count()`, `.find()`, `.rfind()`, `.index()` · ⚡ overlapping matches, `.find()` with a start, `.replace()` (and limiting the swaps) | ✅ | ⬜ |
-| 08 | [Clean the Data](02-strings/08-clean-the-data/) | `.split()` with a separator, `.strip()`, `.lstrip()`, `.rstrip()`, `.removeprefix()`, `.removesuffix()`, chaining, the `.strip()` trap, `!r`, the `,` separator · ⚡ `.join()`, `map()` and `sum()`, the `map(int, input().split())` recipe | ⬜ | ⬜ |
-| 09 | [Contact List](02-strings/09-contact-list/) | split, transform, glue, comparing text, ignoring case, "greatest so far" with text · ⚡ `.rsplit()`, `maxsplit`, `.partition()`, `.rpartition()`, unpacking | ⬜ | ⬜ |
-| 10 | [🏆 Caesar Cipher](02-strings/10-challenge-caesar-cipher/) | `ord()`, `chr()`, character codes (why `"Zebra" < "apple"`), Unicode, bytes · ⚡ `str.maketrans()`, `.translate()` | ⬜ | ⬜ |
-| 11 | [Log Report](02-strings/11-log-report/) | reading until `END`, `.split()` with `maxsplit`, real-looking data, format spec: width and alignment · ⚡ comparing times as text, fill characters, dynamic width, the `%` format, `.center()`, `.ljust()`, `.rjust()`, `.zfill()`, old `%` and `.format()` | ⬜ | ⬜ |
-| 12 | [🏆 Run-Length Encoding](02-strings/12-challenge-run-length-encoding/) | compressing text: everything together · ⚡ parsing text, numbers with many digits | ⬜ | ⬜ |
+| # | Exercise | What you learn | Solved |
+|---|---|---|:---:|
+| 01 | [Ticket Printer](02-strings-and-data-structures/01-ticket-printer/) | quotes inside text, escapes, raw strings (the `\t` trap in Windows paths), triple-quoted f-strings, `len()`, centering with `^` and a variable width, Unicode box characters | ✅ |
+| 02 | [Word Detective](02-strings-and-data-structures/02-word-detective/) | `.find()` with a start, slices, immutability (building a new string), searching while ignoring case | ⬜ |
+| 03 | [Username Maker](02-strings-and-data-structures/03-username-maker/) | cleaning messy input, `.split()`, `.partition()`, `.isalpha()`, `.isdigit()`, `.isalnum()`, `.count()`, `.startswith()`/`.endswith()`, validating an email step by step | ⬜ |
+| 04 | [Shopping List](02-strings-and-data-structures/04-shopping-list/) | first lists: `append`, `insert`, `remove`, `pop`, `reverse`, `in`, indexes (also negative), slices, `", ".join()`, a command loop | ⬜ |
+| 05 | [Grade Book](02-strings-and-data-structures/05-grade-book/) | `min`/`max`/`sum`, `sort()` vs `sorted()`, median, trimmed average, `.copy()`, percentages with `:.1%` | ⬜ |
+| 06 | [Word Wrap](02-strings-and-data-structures/06-word-wrap/) | building lines from words, the "don't forget the last one" bug, padding with a variable width | ⬜ |
+| 07 | [Secret Code](02-strings-and-data-structures/07-secret-code/) | `ord()`/`chr()`, Unicode, wrapping around with `%`, the Vigenère and Caesar ciphers, building with a list and `"".join()` | ⬜ |
+| 08 | [The Copy Trap](02-strings-and-data-structures/08-the-copy-trap/) | lists of lists (grids), mutability, why `[row] * H` breaks, `is`, shallow vs deep copies | ⬜ |
+| 09 | [Tic-Tac-Toe Judge](02-strings-and-data-structures/09-tic-tac-toe-judge/) | walking a grid by rows, columns and diagonals, comparing lists, `in` with lists, the order of checks | ⬜ |
+| 10 | [Map Points](02-strings-and-data-structures/10-map-points/) | tuples, unpacking in a `for`, swapping with `a, b = b, a`, sorting by several things with tuples | ⬜ |
+| 11 | [Word Counter](02-strings-and-data-structures/11-word-counter/) | first dictionaries, counting with `.get()`, `.items()`, sorting counts with `(-count, word)`, fill characters | ⬜ |
+| 12 | [Phone Book](02-strings-and-data-structures/12-phone-book/) | a dictionary of lists, a reverse-lookup dictionary, keeping two dictionaries in sync, `.pop()` on dictionaries | ⬜ |
+| 13 | [Anagram Groups](02-strings-and-data-structures/13-anagram-groups/) | grouping (key → list), choosing a good key, why lists can't be keys, `.values()` | ⬜ |
+| 14 | [Unique Visitors](02-strings-and-data-structures/14-unique-visitors/) | sets: removing duplicates, fast `in`, union `\|`, intersection `&`, difference `-` | ⬜ |
+| 15 | [Ranking Table](02-strings-and-data-structures/15-ranking-table/) | `zip`, `enumerate(start=1)`, positions with ties, ▲▼ moves, a table with separators and percentages | ⬜ |
+| 16 | [Comprehension Gym](02-strings-and-data-structures/16-comprehension-gym/) | list, set and dict comprehensions, filters, `if`/`else` inside them, nested comprehensions | ⬜ |
+| 17 | [Student Records](02-strings-and-data-structures/17-student-records/) | a list of dictionaries (the shape of JSON), nested access, `.setdefault()`, grouping records | ⬜ |
+| 18 | [Log Analyzer](02-strings-and-data-structures/18-log-analyzer/) | parsing log files, `maxsplit`, counting by level, module and hour, time gaps in seconds | ⬜ |
+| 19 | [Sales Report](02-strings-and-data-structures/19-sales-report/) | parsing CSV with columns in any order, a column → index dictionary, skipping broken rows, a money report | ⬜ |
+| 20 | [🏆 Inventory](02-strings-and-data-structures/20-challenge-inventory/) | everything together: nested dictionaries, sets, a history of tuples, an `UNDO` stack, a report table | ⬜ |

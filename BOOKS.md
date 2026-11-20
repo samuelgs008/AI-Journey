@@ -35,7 +35,7 @@ Read on my own at the end of Phase 1. These topics have no exercise levels: the 
 
 <table>
 <tr><th>Level</th><th>Chapter</th><th>Topic</th><th>Read</th></tr>
-<tr><td rowspan="2">12 · APIs and my first AI</td><td align="center">1</td><td>what AI engineering is (good any time)</td><td align="center">⬜</td></tr>
+<tr><td rowspan="2">11 · APIs and my first AI</td><td align="center">1</td><td>what AI engineering is (good any time)</td><td align="center">⬜</td></tr>
 <tr><td align="center">5</td><td>prompt engineering</td><td align="center">⬜</td></tr>
 </table>
 
@@ -46,9 +46,9 @@ Read on my own at the end of Phase 1. These topics have no exercise levels: the 
 
 <table>
 <tr><th>Level</th><th>Chapter</th><th>Topic</th><th>Read</th></tr>
-<tr><td>24 · LLMs in practice</td><td align="center">2</td><td>how foundation models work</td><td align="center">⬜</td></tr>
-<tr><td>25 · Agents and RAG</td><td align="center">6</td><td>RAG and agents</td><td align="center">⬜</td></tr>
-<tr><td rowspan="4">26 · LLMs in production</td><td align="center">3</td><td>evaluation methodology</td><td align="center">⬜</td></tr>
+<tr><td>23 · LLMs in practice</td><td align="center">2</td><td>how foundation models work</td><td align="center">⬜</td></tr>
+<tr><td>24 · Agents and RAG</td><td align="center">6</td><td>RAG and agents</td><td align="center">⬜</td></tr>
+<tr><td rowspan="4">25 · LLMs in production</td><td align="center">3</td><td>evaluation methodology</td><td align="center">⬜</td></tr>
 <tr><td align="center">4</td><td>evaluating AI systems</td><td align="center">⬜</td></tr>
 <tr><td align="center">9</td><td>inference optimization</td><td align="center">⬜</td></tr>
 <tr><td align="center">10</td><td>AI engineering architecture and user feedback</td><td align="center">⬜</td></tr>
@@ -61,13 +61,13 @@ Read on my own at the end of Phase 1. These topics have no exercise levels: the 
 
 <table>
 <tr><th>Level</th><th>Chapter</th><th>Topic</th><th>Read</th></tr>
-<tr><td rowspan="6">27 · ML foundations</td><td align="center">10</td><td>k-nearest neighbors <i>(Grokking Algorithms)</i></td><td align="center">⬜</td></tr>
+<tr><td rowspan="6">26 · ML foundations</td><td align="center">10</td><td>k-nearest neighbors <i>(Grokking Algorithms)</i></td><td align="center">⬜</td></tr>
 <tr><td align="center">1</td><td>overview of ML systems</td><td align="center">⬜</td></tr>
 <tr><td align="center">2</td><td>ML systems design</td><td align="center">⬜</td></tr>
 <tr><td align="center">3</td><td>data engineering fundamentals</td><td align="center">⬜</td></tr>
 <tr><td align="center">4</td><td>training data</td><td align="center">⬜</td></tr>
 <tr><td align="center">5</td><td>feature engineering</td><td align="center">⬜</td></tr>
-<tr><td>28 · Gradient boosting</td><td align="center">6</td><td>model development and offline evaluation</td><td align="center">⬜</td></tr>
+<tr><td>27 · Gradient boosting</td><td align="center">6</td><td>model development and offline evaluation</td><td align="center">⬜</td></tr>
 </table>
 
 </details>
@@ -77,7 +77,7 @@ Read on my own at the end of Phase 1. These topics have no exercise levels: the 
 
 <table>
 <tr><th>Level</th><th>Chapter</th><th>Topic</th><th>Read</th></tr>
-<tr><td rowspan="2">32 · Transformers &amp; Hugging Face</td><td align="center">7</td><td>finetuning</td><td align="center">⬜</td></tr>
+<tr><td rowspan="2">31 · Transformers &amp; Hugging Face</td><td align="center">7</td><td>finetuning</td><td align="center">⬜</td></tr>
 <tr><td align="center">8</td><td>dataset engineering</td><td align="center">⬜</td></tr>
 </table>
 
@@ -88,8 +88,8 @@ Read on my own at the end of Phase 1. These topics have no exercise levels: the 
 
 <table>
 <tr><th>Level</th><th>Chapter</th><th>Topic</th><th>Read</th></tr>
-<tr><td>34 · Serve a model</td><td align="center">7</td><td>model deployment</td><td align="center">⬜</td></tr>
-<tr><td rowspan="4">35 · Cloud &amp; MLOps</td><td align="center">8</td><td>data distribution shifts and monitoring</td><td align="center">⬜</td></tr>
+<tr><td>33 · Serve a model</td><td align="center">7</td><td>model deployment</td><td align="center">⬜</td></tr>
+<tr><td rowspan="4">34 · Cloud &amp; MLOps</td><td align="center">8</td><td>data distribution shifts and monitoring</td><td align="center">⬜</td></tr>
 <tr><td align="center">9</td><td>continual learning and testing in production</td><td align="center">⬜</td></tr>
 <tr><td align="center">10</td><td>infrastructure and tooling for MLOps</td><td align="center">⬜</td></tr>
 <tr><td align="center">11</td><td>the human side of ML</td><td align="center">⬜</td></tr>
